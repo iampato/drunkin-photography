@@ -11,6 +11,10 @@ body{
     margin:auto;
     overflow: hidden;
 }
+ ul{
+    padding:0;
+    margin:0;
+}
 .btn{
     height:35px;
     background:#e8491d;
@@ -33,10 +37,7 @@ header a{
     color: #ffffff;
     font-size:17px;
 }
-header ul{
-    padding:0;
-    margin:0;
-}
+
 header li{
     float:left;
     display:inline;
@@ -89,8 +90,13 @@ header a:hover{
     color: #ffffff;
     background: #35424a;
 }
-#newsletter h3{
+#newsletter h2{
     float:left;
+}
+#newsletter button:hover{
+    background:none;
+    border:#e8491d 2px solid;
+    border-radius:3.5px;
 }
 #newsletter form{
     float:right;
@@ -99,7 +105,7 @@ header a:hover{
 #newsletter input{
     padding:4px;
     height:25px;
-    width:250px;
+    width:280px;
 }
 
 /* Boxees */
@@ -111,4 +117,25 @@ header a:hover{
     text-align: center;
     width: 30%;
     padding: 10px;
+}
+
+/*footer*/
+footer{
+    padding:20px;
+    margin-top:20px;
+    background-color:#e8491d;
+}
+footer h3, footer p{
+    float:left;
+    margin:10px;
+}
+footer .social{
+    float:right;
+    margin-top:11px;
+    text-align: center;
+}
+footer li{
+    float:left;
+    display:inline;
+    padding:0 10px 0 10px;
 }
