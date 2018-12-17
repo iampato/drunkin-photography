@@ -1,0 +1,113 @@
+body{
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color: #f4f4f4
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+.btn{
+    height:35px;
+    background:#e8491d;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#ffffff;
+}
+
+/* header */
+header{
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #f70e0e 3px solid;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:17px;
+}
+header ul{
+    padding:0;
+    margin:0;
+}
+header li{
+    float:left;
+    display:inline;
+    padding:0 18px 0 18px;
+}
+header #branding{
+    float:left;
+}
+header #branding h1{ 
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top:10px;
+}
+header .active a, header .highlight{
+    color:#e8491d;
+    font-weight:bold;
+}
+header .active{
+    border: #9c9898 1px solid;
+    border-bottom-right-radius: 11px;
+}
+header a:hover{
+    color:#9c9898;
+    font-weight: 1000px;
+}
+
+/* Showcase */
+#showcase{
+    min-height:450px;
+    background-image: url(../img/01.jpg) no-repeat -400px 0px;
+    opacity: 1;
+    text-align: center;
+}
+#showcase h1{
+    margin-top: 120px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#showcase p{
+    font-size:20px;
+}
+
+/* newsletter */
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+#newsletter h3{
+    float:left;
+}
+#newsletter form{
+    float:right;
+    margin-top:15px;
+}
+#newsletter input{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+
+/* Boxees */
+#boxes{
+    margin-top: 20px; 
+}
+#boxes .box{
+    float:left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
