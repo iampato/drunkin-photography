@@ -31,7 +31,8 @@
     </header>
     <section id="showcase">
         <div class="container">
-            <h2>Contact Us.</h2>
+            <h2>Contact Us</h2>
+             <p> Feel free to contact us.</p>
         </div>
     </section>
 
@@ -49,20 +50,20 @@
         <div class ="container">
             <article class="main-col">
                 <form action="">
-                    <input  class="input-name" type="text" name="name" placeholder="Name"/>
-                    <input class="input-phone" type="text" name="phone" placeholder="Phone Number" >
-                    <textarea type="text" rows="10" placeholder="Message"></textarea>
-                    <button class="btn" type="submit">Send</button>
+                    <input class="form-control" type="text" name="name" placeholder="Name"/>
+                    <input class="form-control" type="text" name="phone" placeholder="Phone Number" >
+                    <input class="form-control" type="email" name="email" placeholder="Email Addresss" >
+                    <textarea class="form-control" type="text" cols="40" rows="15" placeholder="Message"></textarea>
+                    <button class="btn" type="submit">Send Message</button>
             </form>
             </article>
             <aside id="sidebar">
-                <h3>Latest Trends</h3>
+                <h2>Our Address</h2>
                 <ul id="posts">
-                    <li>: Tips for every Photoshop User</li>
-                    <li>: Tips for every Photoshop User</li>
-                    <li>: Tips for every Photoshop User</li>
-                    <li>: Tips for every Photoshop User</li>
-                    <li>: Tips for every Photoshop User</li>
+                    <li><i class="fa fa-map-marker"></i>  P.O Box 657-10100, NYERI</li>
+                    <li><i class="fa fa-phone"></i><a href="tel:0702567012">  +254702567012</a></li>
+                    <li><i class="fa fa-phone"></i><a href="tel:07718221504">  +254718221504</a></li>
+                    <li><i class="fa fa-inbox"></i><a href="mailto:858wpwaweru@gmail.com"> wpwaweru858@yahoo.com</a</li>
                 </ul>
             </aside>
 
