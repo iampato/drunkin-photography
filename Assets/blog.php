@@ -32,8 +32,8 @@
     </header>
     <section id="showcase">
         <div class="container">
-            <h2>Our Blog.</h2>
-            <p> Enjoy my daily Meals</p>
+            <h2>Our Blog</h2>
+            <p> Enjoy my daily Meals.</p>
         </div>
     </section>
     
