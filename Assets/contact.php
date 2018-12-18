@@ -34,6 +34,41 @@
             <h2>Contact Us.</h2>
         </div>
     </section>
+
+     <section id="newsletter">
+        <div class="container">
+            <h2>Subscribe to your mail list</h2>
+            <form action="">
+                <input type="email" name="email" id="newsletter_email" placeholder="Enter Your Email ..." required>
+                <button type="submit" class="btn">  Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class ="container">
+            <article class="main-col">
+                <form action="">
+                    <input  class="input-name" type="text" name="name" placeholder="Name"/>
+                    <input class="input-phone" type="text" name="phone" placeholder="Phone Number" >
+                    <textarea type="text" rows="10" placeholder="Message"></textarea>
+                    <button class="btn" type="submit">Send</button>
+            </form>
+            </article>
+            <aside id="sidebar">
+                <h3>Latest Trends</h3>
+                <ul id="posts">
+                    <li>: Tips for every Photoshop User</li>
+                    <li>: Tips for every Photoshop User</li>
+                    <li>: Tips for every Photoshop User</li>
+                    <li>: Tips for every Photoshop User</li>
+                    <li>: Tips for every Photoshop User</li>
+                </ul>
+            </aside>
+
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <h3>Drunkin Photography</h3>
