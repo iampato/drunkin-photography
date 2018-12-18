@@ -5,8 +5,8 @@ A commerce full stack photographer website
 ## Getting Started
 
 These instructions will get you a copy of the awesome app.
-- Just clone this repository by typing: `git clone https://github.com/Iampato/P.O-Box-Finder-Rest-API.git`
-- Switch to project directory: `cd notable_django`
+- Just clone this repository by typing: `git clone https://github.com/Iampato/drunkin-photography`
+- Switch to project directory: `cd drunkin-photography`
 
 ### Prerequisites
 
