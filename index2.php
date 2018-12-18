@@ -22,9 +22,9 @@
                 <ul>
                     <li class="active"><a href="#"> Home</a></li>
                     <li><a href="assets/about.html"> About</a></li>
-                    <li><a href="assets/gallery.html"> Blog</a></li>
-                    <li><a href="assets/gallery.html"> Gallery</a></li>
-                    <li><a href="assets/contact.html"> Contacts</a></li>
+                    <li><a href="assets/blog.php"> Blog</a></li>
+                    <li><a href="assets/gallery.php"> Gallery</a></li>
+                    <li><a href="assets/contact.php"> Contacts</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,7 +32,7 @@
     <section id="showcase">
         <div class="container">
 
-            <h1>Afforadable Proffesional Photographers.</h1>
+            <h2>Afforadable Proffesional Photographers.</h2>
             <p>Hello baby, we got sauce coz you got sauce. For birthdays, wedding, branding and exclusive photoshoot.
                Holla at your boy @ Drunkin Photography.
             </p>
@@ -81,9 +81,9 @@
             <p>Copyright &copy2019</p>
             <div class="social">
                 <ul>
-                    <li><i class="fa fa-2x fa-facebook"></i></li>
-                    <li><i class="fa fa-2x fa-twitter"></i></li>
-                    <li><i class="fa fa-2x fa-instagram"></i></li>
+                    <li><i class="fa  fa-facebook"></i></li>
+                    <li><i class="fa  fa-twitter"></i></li>
+                    <li><i class="fa  fa-instagram"></i></li>
                 </ul> 
             </div>
         </div>
