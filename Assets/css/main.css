@@ -22,12 +22,14 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     color:#ffffff;
+    font-weight: bold;
 }
 button:hover{
     background:none;
     border:#e8491d 2px solid;
     border-radius:3.5px;
     color:#000000;
+    font-weight: bold;
 }
 
 /* header */
@@ -168,4 +170,44 @@ footer li{
     border: #cccccc 1px solid;
     border-radius: 10px;
     padding:10px;
+}
+
+/*sidebar */
+.form #sidebar{
+    float:right;
+    width:35%;
+    margin-top:10px;
+}
+.form #sidebar li{
+    float:left;
+    display:inline;
+    padding:0 10px 0 10px;
+    margin-bottom: 8px;
+}
+
+/*article*/
+.form .main-col{
+    width:60%;
+    float:left;
+    margin-top: 25px;
+    background:#e6e6e6;
+    border: #cccccc 1px solid;
+    border-radius: 10px;
+    padding:10px;
+}
+.form .main-col input{
+    width:100%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    height:30px;
+    border: 0;
+    font-size: 16px;
+    font-family: sans-serif;    
+}
+.form .main-col textarea{
+    width:100%;
+    border: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
 }
