@@ -31,7 +31,8 @@
     </header>
     <section id="showcase">
         <div class="container">
-            <h2>Our Gallery.</h2>
+            <h2>Our Gallery</h2>
+            <p> Enjoy my gallery.</p>
         </div>
     </section>
     <footer>
