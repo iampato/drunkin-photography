@@ -10,8 +10,8 @@ These instructions will get you a copy of the awesome app.
 
 ### Prerequisites
 
--php
--html
+-php <br>
+-html <br>
 -css
 -mysql
 
