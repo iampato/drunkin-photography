@@ -12,7 +12,7 @@ These instructions will get you a copy of the awesome app.
 
 -php <br>
 -html <br>
--css
+-css<br>
 -mysql
 
 
