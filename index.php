@@ -10,6 +10,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/font-awesome.min.css" />
 
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="assets/engine1/style.css" />
+    <script type="text/javascript" src="assets/engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+
     <script src="assets/js/main.js"></script>
 </head>
 <body>
