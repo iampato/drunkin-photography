@@ -10,13 +10,15 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/font-awesome.min.css" />
 
-    <!-- Start WOWSlider.com HEAD section -->
-    <link rel="stylesheet" type="text/css" href="assets/engine1/style.css" />
-    <script type="text/javascript" src="assets/engine1/jquery.js"></script>
-    <!-- End WOWSlider.com HEAD section -->
+
 
     <script src="assets/js/main.js"></script>
-</head>
+
+	
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
 <body>
     <header>
         <div class="container">
@@ -36,13 +38,35 @@
     </header>
     <section id="showcase">
         <div class="container">
-
-            <h2>Afforadable Proffesional Photographers.</h2>
-            <p>Hello baby, we got sauce coz you got sauce. For birthdays, wedding, branding and exclusive photoshoot.
-               Holla at your boy @ Drunkin Photography.
-            </p>
-            <i class="fa-spin"></i>
-        </div>
+	
+        
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><img src="data0/images/pexelsphoto225157.jpg" alt="Camera" title="Camera" id="wows0_0"/></li>
+		<li><img src="data0/images/pexelsphoto1082663.jpg" alt="Moments" title="Moments" id="wows0_1"/></li>
+		<li><img src="data0/images/pexelsphoto1667850.jpg" alt="Love" title="Love" id="wows0_2"/></li>
+		<li><img src="data0/images/pexelsphoto122400.jpg" alt="Pixels" title="Pixels" id="wows0_3"/></li>
+		<li><img src="data0/images/pexelsphoto368893.jpg" alt="Scenes" title="Scenes" id="wows0_4"/></li>
+		<li><img src="data0/images/pexelsphoto457941.jpg" alt="Sunsets" title="Sunsets" id="wows0_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data0/images/pexelsphoto598917.jpg" alt="image carousel" title="Magic" id="wows0_6"/></a></li>
+		<li><img src="data0/images/pexelsphoto936102.jpg" alt="Laughters" title="Laughters" id="wows0_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Camera"><span><img src="data0/tooltips/pexelsphoto225157.jpg" alt="Camera"/>1</span></a>
+		<a href="#" title="Moments"><span><img src="data0/tooltips/pexelsphoto1082663.jpg" alt="Moments"/>2</span></a>
+		<a href="#" title="Love"><span><img src="data0/tooltips/pexelsphoto1667850.jpg" alt="Love"/>3</span></a>
+		<a href="#" title="Pixels"><span><img src="data0/tooltips/pexelsphoto122400.jpg" alt="Pixels"/>4</span></a>
+		<a href="#" title="Scenes"><span><img src="data0/tooltips/pexelsphoto368893.jpg" alt="Scenes"/>5</span></a>
+		<a href="#" title="Sunsets"><span><img src="data0/tooltips/pexelsphoto457941.jpg" alt="Sunsets"/>6</span></a>
+		<a href="#" title="Magic"><span><img src="data0/tooltips/pexelsphoto598917.jpg" alt="Magic"/>7</span></a>
+		<a href="#" title="Laughters"><span><img src="data0/tooltips/pexelsphoto936102.jpg" alt="Laughters"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"></div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+	<!-- End WOWSlider.com BODY section --></div>
     </section>
     <section id="newsletter">
         <div class="container">
@@ -93,5 +117,6 @@
             </div>
         </div>
     </footer>
-</body>
-</html>
+
+  </body>
+  </html>
